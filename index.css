@@ -66,6 +66,10 @@ input {
     margin-bottom: 2.5em;
 }
 
+input[type="text"]:focus {
+    border: 3px solid black;
+}
+
 button {
     width: 100%;
     background: #5200ff;
